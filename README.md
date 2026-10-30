@@ -1,4 +1,4 @@
-# 🎓 Student Grade Prediction — ML Project
+# Student Grade Prediction — ML Project
 
 A complete college-level Machine Learning project that predicts a student's
 final mathematics grade using Scikit-learn models and a professional
@@ -6,7 +6,7 @@ Streamlit web interface.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 AIML_project/
@@ -21,7 +21,7 @@ AIML_project/
 
 ---
 
-## 🗃️ Dataset
+## Dataset
 
 The project uses a synthetic version of the **UCI Student Performance Dataset**
 (Mathematics grades). The CSV is generated automatically the first time you run
@@ -43,7 +43,7 @@ the app — no manual download is required.
 
 ---
 
-## 🤖 Machine Learning Models
+## Machine Learning Models
 
 All models are regression models (predicting a numeric grade):
 
@@ -59,7 +59,7 @@ All metrics are computed from real predictions on the held-out test set.
 
 ---
 
-## ⚙️ Setup & Installation
+## Setup & Installation
 
 ### Step 1 — Make sure Python is installed
 
@@ -108,9 +108,9 @@ http://localhost:8501
 
 ---
 
-## 🖥️ Running in VS Code
+## Running in VS Code
 
-1. Open the `DSML_project` folder in VS Code (`File → Open Folder`).
+1. Open the `AIML_project` folder in VS Code (`File → Open Folder`).
 2. Open the integrated terminal: **Terminal → New Terminal** (`Ctrl+\``)
 3. Activate the virtual environment:
    ```powershell
@@ -123,19 +123,19 @@ http://localhost:8501
 
 ---
 
-## 🌐 App Pages
+## App Pages
 
 | Page | What it shows |
 |---|---|
-| 🏠 Home Dashboard | Project overview, KPIs, feature list, data preview |
-| 📊 Data Exploration | Grade distributions, heatmap, study time charts |
-| 🤖 Model Evaluation | Metrics table, bar chart comparison, metric explanations |
-| 🎯 Predict Grade | Input form → predicted grade + letter grade + percentage |
-| 📈 Model Insights | Actual vs predicted, residuals, feature importance |
+| Home Dashboard | Project overview, KPIs, feature list, data preview |
+| Data Exploration | Grade distributions, heatmap, study time charts |
+| Model Evaluation | Metrics table, bar chart comparison, metric explanations |
+| Predict Grade | Input form → predicted grade + letter grade + percentage |
+| Model Insights | Actual vs predicted, residuals, feature importance |
 
 ---
 
-## 📊 Evaluation Metrics Explained
+## Evaluation Metrics Explained
 
 | Metric | Meaning | Better when |
 |---|---|---|
@@ -157,7 +157,7 @@ http://localhost:8501
 
 ---
 
-## 📚 Technologies Used
+## Technologies Used
 
 - **Python 3.9+** — Core language
 - **Pandas & NumPy** — Data manipulation
